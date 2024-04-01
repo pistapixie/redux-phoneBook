@@ -2,7 +2,7 @@ import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import { useState } from "react";
-import { UseDispatch, useDispatch } from "react-redux";
+import { useDispatch } from "react-redux";
 
 const ContactForm = () => {
   const [name, setName] = useState("");
@@ -39,7 +39,7 @@ const ContactForm = () => {
           />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button variant="dark" type="submit">
           추가
         </Button>
       </Form>

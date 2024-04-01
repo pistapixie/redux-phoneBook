@@ -16,7 +16,7 @@ const ContactList = () => {
     }
   }, [keyword, contactList]);
   return (
-    <div>
+    <div className="search-container">
       <SearchBox />
       <div className="contact-list">
         num:{filteredList.length}
